@@ -7,7 +7,7 @@ const axios = require('axios'); // ไลบรารีสำหรับทำ
 const bcrypt = require('bcrypt'); // ไลบรารีสำหรับเข้ารหัสรหัสผ่าน
 
 // กำหนด API Key สำหรับการเข้าถึงข้อมูลจาก Finnhub.io
-const apiKey = 'cs001b9r01qrbtrl5j70cs001b9r01qrbtrl5j7g';
+const apiKey = 'Your API Key';
 
 // ฟังก์ชันสำหรับการลงทะเบียนผู้ใช้ใหม่
 const register =  async (req, res) => {
